@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$USER_HOME$/Desktop/sree/lib_vms_offer_dto" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_cloud_gateway" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_config_server" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_hystrix_dashboard" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_offer" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_offeredservice" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_registration" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/sree/ws_vms_service_registry" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Downloads/demo" charset="UTF-8" />
+  </component>
+</project>

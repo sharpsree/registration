@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_offer/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/lib_vms_offer_dto/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_registration/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_offeredservice/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_config_server/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_service_registry/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_cloud_gateway/pom.xml" />
+        <option value="$USER_HOME$/Desktop/sree/ws_vms_hystrix_dashboard/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

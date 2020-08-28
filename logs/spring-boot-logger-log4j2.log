@@ -1,0 +1,39 @@
+2020-08-19 00:49:33,041 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-08-19 00:49:34,232 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-08-19 00:49:34,234 WARN o.s.c.c.c.ConfigServicePropertySourceLocator [main] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/ws-vms-offeredservice/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-08-19 00:49:34,244 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-19 00:49:35,691 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-19 00:49:35,844 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140ms. Found 3 JPA repository interfaces.
+2020-08-19 00:49:36,358 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=79733d70-3ab5-3060-b2ac-f21c977bcb04
+2020-08-19 00:49:37,670 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2020-08-19 00:49:37,688 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8083"]
+2020-08-19 00:49:37,689 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-19 00:49:37,690 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-19 00:49:37,973 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-19 00:49:37,974 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3701 ms
+2020-08-19 00:49:38,761 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 00:49:38,938 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-19 00:49:39,062 INFO o.h.Version [task-1] HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-19 00:49:39,065 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-19 00:49:39,310 INFO o.h.a.c.r.j.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-19 00:49:39,538 INFO c.z.h.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-08-19 00:49:40,191 INFO c.z.h.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-08-19 00:49:40,244 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-19 00:49:40,549 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75345e47, org.springframework.security.web.context.SecurityContextPersistenceFilter@56d742ad, org.springframework.security.web.header.HeaderWriterFilter@22ab1b8a, org.springframework.security.web.authentication.logout.LogoutFilter@60484429, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18ff753c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1d535b78, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36f40d72, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1fb30e5d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7aca299e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36cdcae0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c557eee, org.springframework.security.web.session.SessionManagementFilter@60b4c754, org.springframework.security.web.access.ExceptionTranslationFilter@7978550b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@560be8c0]
+2020-08-19 00:49:41,423 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-19 00:49:41,437 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-19 00:49:41,514 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8083"]
+2020-08-19 00:49:41,556 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path '/offeredservices'
+2020-08-19 00:49:41,626 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-08-19 00:49:41,660 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-08-19 00:49:41,680 INFO s.d.s.w.s.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-08-19 00:49:41,842 INFO s.d.s.w.r.o.CachingOperationNameGenerator [main] Generating unique operation named: applyOfferUsingPUT_1
+2020-08-19 00:49:41,859 INFO s.d.s.w.r.o.CachingOperationNameGenerator [main] Generating unique operation named: bookServiceUsingPOST_1
+2020-08-19 00:49:41,875 INFO s.d.s.w.r.o.CachingOperationNameGenerator [main] Generating unique operation named: findOfferDTOUsingGET_1
+2020-08-19 00:49:41,935 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-19 00:49:42,586 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-19 00:49:42,597 INFO o.s.b.StartupInfoLogger [main] Started OfferedserviceApplication in 11.071 seconds (JVM running for 12.911)
+2020-08-19 00:49:47,813 INFO o.a.j.l.DirectJDKLog [http-nio-8083-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 00:49:47,813 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-19 00:49:47,852 INFO o.s.w.s.FrameworkServlet [http-nio-8083-exec-1] Completed initialization in 38 ms
+2020-08-19 00:49:48,293 INFO c.v.o.c.OfferedServicesController [http-nio-8083-exec-1]  Book Service
